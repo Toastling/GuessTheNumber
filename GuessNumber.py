@@ -1,4 +1,4 @@
 #!/usr/bin/env python
 
-for fruit in ['banana', 'apple', 'pear', 'kiwi']:
+for fruit in ['banana', 'grape', 'pear', 'kiwi']:
     print "I like to eat "+ fruit+'s'
