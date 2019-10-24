@@ -2,6 +2,7 @@
 
 import random
 
+print "Starting..."
 
 currentroll = random.randint(1, int(10))
 MadeCorrectGuess=False
@@ -14,3 +15,5 @@ while not MadeCorrectGuess:
         print "Nope. Go bigger."
     elif int(NumberRange)>currentroll:
         print "Nope. Go smaller."
+
+print "Done!"
